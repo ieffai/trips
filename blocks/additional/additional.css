@@ -1,0 +1,5 @@
+.additional {
+    display: flex;
+   margin: 106px auto 0px;
+   flex-direction: column;
+}

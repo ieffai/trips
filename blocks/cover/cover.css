@@ -1,0 +1,45 @@
+.cover {
+   margin: 71px auto 0px;
+   width: 82%;
+
+}
+
+@media screen and (max-width: 1440px){
+    .cover {
+     width: 82%;
+    }
+  }
+
+  @media screen and (max-width: 1280px){
+    .cover {
+     width: 93%;
+    }
+  }
+
+  @media screen and (max-width: 1024px){
+    .cover {
+     width: 100%;
+     margin-top: 80px;
+    }
+  }
+
+  @media screen and (max-width: 768px){
+    .cover {
+     width: 100%;
+     margin-top: 93px;
+    }
+  }
+
+  @media screen and (max-width: 375px){
+    .cover {
+      margin-top: 43px;
+     width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 320px){
+    .cover {
+     width: 100%;
+  
+    }
+  }

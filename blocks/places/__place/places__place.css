@@ -1,0 +1,40 @@
+.places__place {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 82px;
+
+}
+
+.places__place:first-of-type {
+    margin-top: 0px;
+}
+@media screen and (max-width: 1280px){
+    .places__place {
+        margin-top: 74px;
+    }
+
+}
+
+@media screen and (max-width: 1024px){
+    .places__place {
+        margin-bottom: 2px;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    .places__place {
+        margin-bottom: 0px;
+        margin-top: 69px;
+    }
+
+}
+
+@media screen and (max-width: 375px){
+    .places__place {
+        flex-direction: column;
+        margin-top: 33px;
+    }
+
+}

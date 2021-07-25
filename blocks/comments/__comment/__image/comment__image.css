@@ -1,0 +1,8 @@
+.comment__image {
+    width: 97px;
+    height: 97px;
+    object-fit: cover;
+    object-position: 100%;
+    border-radius: 50%;
+    order: 1;
+ }

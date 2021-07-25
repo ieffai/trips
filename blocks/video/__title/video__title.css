@@ -1,0 +1,24 @@
+.video__title {
+    width: 61%;
+    margin-top: 12px;
+    margin-bottom: 0px;
+}
+
+@media screen and (max-width: 1440px){
+.video__title {
+    font-size: 36px;
+    line-height: 38px;
+    }
+}
+@media screen and (max-width: 768px){
+    .video__title {
+    font-size: 24px;
+    line-height: 26px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .video__title {
+    width: 80%;
+    }
+}

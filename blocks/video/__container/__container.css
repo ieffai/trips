@@ -1,0 +1,31 @@
+.video__container {
+    display: flex;
+    display: row;
+    margin: 63px auto 0px;
+}
+
+@media screen and (max-width: 375px){
+    .video__container {
+        flex-direction: column;
+
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    .video__container {
+        margin-top: 46px;
+        justify-content: space-between;
+
+    }
+
+}
+
+@media screen and (max-width: 375px){
+    .video__container {
+        margin-top: 25px;
+        justify-content: space-between;
+
+    }
+
+}

@@ -1,0 +1,13 @@
+a {
+    text-decoration-line: none; 
+    color: #FFFFFF;
+}
+
+a:hover {
+    text-decoration-line: underline;
+    opacity: 0.7;
+}
+
+a:visited {
+    color: #FFFFFF;
+}

@@ -1,0 +1,10 @@
+.video__icon {
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .video__icon {
+       margin-top: 26px;
+    }
+    
+}

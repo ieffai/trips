@@ -1,0 +1,36 @@
+.cover__bg {
+    width: 100%;
+    min-height: 594px;
+    box-shadow: 0 0 0 300px rgba(0, 0, 0, 0.3) inset;
+    background-image: url(../../../images/cover/__cover_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 0px auto;
+}
+
+.cover__bg:hover { 
+    box-shadow: 0 0 0 300px rgba(0, 0, 0, 0.5) inset;
+} 
+
+@media screen and (max-width: 1024px){
+    .cover__bg {
+    min-height: 562px;
+    }
+  }
+
+
+  @media screen and (max-width: 768px){
+    .cover__bg {
+    min-height: 500px;
+    }
+  }
+
+  @media screen and (max-width: 375px){
+    .cover__bg {
+    min-height: 272px;
+    
+    }
+  }

@@ -1,0 +1,31 @@
+.place__container {
+    width: 48%;
+    margin-left: 40px;
+
+
+ }
+
+ @media screen and (max-width: 1024px){
+    .place__container {
+        width: 46%;
+        margin-left: 29px;
+    }
+
+}
+
+ @media screen and (max-width: 768px){
+    .place__container {
+        margin-left: 21px;
+        margin-top: 36px;
+
+    }
+
+}
+
+@media screen and (max-width: 375px){
+    .place__container {
+        width: 90%;
+        margin-left: 17px;
+        margin-top: 17px;
+    }
+}

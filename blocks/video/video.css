@@ -1,0 +1,45 @@
+.video {
+    flex-direction: column;
+    margin: 100px auto 0px;
+    width: 82%;
+
+}
+
+@media screen and (max-width: 1440px){
+    .video {
+     width: 82%;
+    }
+  }
+
+  @media screen and (max-width: 1280px){
+    .video {
+     width: 93%;
+    }
+  }
+
+
+  @media screen and (max-width: 1024px){
+    .video {
+     width: 90%;
+     margin-top: 115px;
+    }
+  }
+
+  @media screen and (max-width: 768px){
+    .video {
+     width: 94%;
+     margin-top: 70px;
+    }
+  }
+
+  @media screen and (max-width: 375px){
+    .video {
+     width: 92%;
+    }
+  }
+
+  @media screen and (max-width: 320px){
+    .video {
+     width: 90%;
+    }
+  }

@@ -1,0 +1,22 @@
+.intro__content-row {
+    display: flex;
+    margin-top: 34px;
+}
+
+@media screen and (max-width: 1024px){
+    .intro__content-row {
+        margin-top: 39px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .intro__content-row {
+        margin-top: 34px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .intro__content-row {
+        margin-top: 30px;
+    }
+}

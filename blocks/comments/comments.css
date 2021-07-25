@@ -1,0 +1,48 @@
+.comments {
+    display: flex;
+     flex-direction: column;
+     margin: 109px auto 0px;
+     width: 82%;
+
+
+ }
+
+ @media screen and (max-width: 1440px){
+    .comments {
+     width: 82%;
+    }
+  }
+
+  @media screen and (max-width: 1280px){
+    .comments {
+     width: 93%;
+    }
+  }
+
+  @media screen and (max-width: 1024px){
+    .comments {
+     width: 90%;
+    }
+  }
+
+
+  @media screen and (max-width: 768px){
+    .comments {
+     width: 94%;
+     margin-top: 105px;
+    }
+  }
+
+
+  @media screen and (max-width: 375px){
+    .comments {
+     width: 92%;
+     margin-top: 65px;
+    }
+  }
+
+  @media screen and (max-width: 320px){
+    .comments {
+     width: 90%;
+    }
+  }
